@@ -1,4 +1,4 @@
-env: dev2
+env: dev3
 spring:
   rabbitmq:
     host: 172.20.10.2
