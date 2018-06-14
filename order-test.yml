@@ -1,11 +1,4 @@
 env: test
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: true
-  instance:
-    hostname: order
 spring:
   application:
     name: order
