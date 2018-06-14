@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: supconit
+    url: jdbc:mysql://172.20.10.2:3306/microservice?characterEncoding=utf-8&useSSL=false
