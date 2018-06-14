@@ -1,17 +1,7 @@
 env: dev
 spring:
-  application:
-    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: supconit
     url: jdbc:mysql://172.20.10.2:3306/microservice?characterEncoding=utf-8&useSSL=false
-  jpa:
-    show-sql: true
-server:
-  port: 8083
-##修改客户端访问的IRule类型（默认轮询）
-PRODUCT:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
