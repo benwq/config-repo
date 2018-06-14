@@ -1,5 +1,7 @@
 env: test
 spring:
+  rabbitmq:
+    host: 172.20.10.2
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
