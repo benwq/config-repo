@@ -1,7 +1,5 @@
 spring:
   jpa:
     show-sql: true
-  application:
-    name: product
 server:
   port: 8081
