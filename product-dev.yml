@@ -1,7 +1,7 @@
 env: dev
 spring:
   rabbitmq:
-    host: 172.20.10.2
+    host: 192.168.253.4
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
