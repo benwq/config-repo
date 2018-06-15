@@ -1,4 +1,4 @@
-env: dev8
+env: dev9
 spring:
   rabbitmq:
     host: 192.168.253.4
